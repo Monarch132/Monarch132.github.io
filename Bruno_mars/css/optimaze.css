@@ -16,11 +16,13 @@ p {
     background-color: lightgray;
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    flex-direction: column;
     align-items: center;
     background: url(../img/cover.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 #button_menu {
     position: absolute;
@@ -122,11 +124,58 @@ p {
 }
 
 .photo_profile{
-    
+    display: flex;
+    justify-content: center;
 }
 .background_circle{
-
+    width: 360px;
+    height: 360px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 12px solid rgba(255, 255, 255, 0.13);
+  
 }
 .photo {
-    
+    background: url(../img/bruno-mars-photos-full.png);
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: -403px -3px;
+    width: 100%;
+    height: 100%;
+}
+.fullname_autor {
+     margin-bottom: 30px;
+}
+.fullname_autor h1 {
+    font-family: "Taiga",sans-serif;
+    text-align: center;
+    font-size: 44px;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+.fullname_autor p {
+    font-family: "Raleway-Regular",sans-serif;
+    color: #1f98ad;
+    font-size: 24px;
+    text-align: center;
+}
+
+.button_follow_hire {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.button_follow_hire a {
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.05);
+    font-family: "Raleway-Regular",sans-serif;
+    padding: 1em;
+    font-size: 24px;
+}
+.button_follow_hire a:nth-child(1) {
+    margin-right: 15px;
 }
