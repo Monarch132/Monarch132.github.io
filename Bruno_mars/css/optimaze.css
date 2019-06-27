@@ -148,6 +148,7 @@ p {
 }
 .fullname_autor h1 {
     font-family: "Taiga",sans-serif;
+    font-weight: lighter;
     text-align: center;
     font-size: 44px;
     color: #ffffff;
@@ -176,6 +177,6 @@ p {
     padding: 1em;
     font-size: 24px;
 }
-.button_follow_hire a:nth-child(1) {
-    margin-right: 15px;
+.button_follow_hire a:nth-child(2) {
+    margin-left: 15px;
 }
