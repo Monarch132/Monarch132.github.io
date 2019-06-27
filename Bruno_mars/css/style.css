@@ -210,7 +210,6 @@ p {
     border: 0px;
     background-color: #88ccd8;
 }
-
 .flex_designer_video {
     display: flex;
     flex-wrap: wrap;
@@ -252,10 +251,10 @@ p {
 .video img {
     width: 100%;
 }
-
 /* My Services  */
 #my_services {
-    height: 867px;
+    height: auto;
+    min-height: 867px;
     background: url(../img/my_services_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -265,6 +264,9 @@ p {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    flex-wrap: wrap;
+    width: 1120px;
+    margin: auto;
 }
 .item_product_design {
     width: 291px;
@@ -292,7 +294,7 @@ p {
     text-transform: uppercase;
     margin: 0px;
 }
-.item_product_design:nth-child(2) {
+.item_product_design:nth-child(3n+2) {
     margin-left: 90px;
     margin-right: 90px;
 }
@@ -300,7 +302,6 @@ p {
     opacity: 0.7;
 }
 /* Portfolio */
-
 #portfolio {
     padding-bottom: 60px;
 }
@@ -344,7 +345,6 @@ p {
     text-decoration: none;
     color: rgba(207, 207, 207, 0);
 }
-
 .link_project h4 {
     font-family: "Raleway-ExtraLight",sans-serif;
     font-size: 24px;
@@ -352,8 +352,6 @@ p {
     margin: 0px;
     margin-top: 15px;
 }
-
-
 .link_project p {
     font-family: "Raleway-Bold",sans-serif;
     font-size: 16px;
