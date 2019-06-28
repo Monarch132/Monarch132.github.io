@@ -25,14 +25,14 @@ p {
     background-position: center;
 }
 #button_menu {
-    position: absolute;
+    position: fixed;
     width: 47px;
     height:47px;
     border-radius: 50%;
-    background: #979898;
+    background-color: #979898;
     right: 0px;
-    margin: 100px;
-    z-index: 1;
+    margin: 50px 50px 50px 50px;
+    z-index: 2;
 }
 /* menuThree */
 .menuThree{
@@ -121,6 +121,76 @@ p {
   transition: .3s cubic-bezier(.8, .5, .2, 1.4);
   transform: rotate(-45deg);
   transition-delay: 100ms;
+}
+.slide_menu.hiden{
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    right: -300px;
+    transition: 0.3s;
+}
+.slide_menu{
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    right: 0px;
+    background-color: #979898;
+    padding-top: 140px;
+    transition: 0.3s;
+}
+.list-menu {
+    border-top: 3px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-menu ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    margin-top: 60px;
+}
+.list-menu ul li{
+    text-align: center;
+}
+.list-menu ul li a{
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 24px;
+    line-height: 26px;;
+    font-family: "Raleway-Bold",sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+    position: relative;
+}
+.list-menu ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+.list-menu ul li a:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 70%;
+    background-color: rgba(136, 204, 216, 0);
+    bottom: 0px;
+    top: 55px;
+    left: 0px;
+    transform: translate(20%);
+    transition: 0.3s;
+}
+.list-menu ul li a:hover:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 70%;
+    background-color: #88ccd8;
+    bottom: 0px;
+    top: 55px;
+    left: 0px;
+    transform: translate(20%);
+    transition: 0.3s;
 }
 .photo_profile{
     display: flex;
@@ -457,6 +527,7 @@ p {
     line-height: 26px;
     color: #515151;
     margin-top: 10px;
+    padding: 0px 10px 0px 10px;
 
 }
 /* Statistic */
@@ -614,9 +685,7 @@ p {
     font-size: 18px;
     line-height: 60px;
     color: #8e8e8e;
-}
-.social_links {
-    
+    padding: 0px 10px 0px 10px;
 }
 .social_links ul{
     padding: 0px;
