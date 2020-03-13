@@ -697,7 +697,7 @@ html,body {
     overflow:hidden;
 }
 .box-statistic-flex {
-    height: 100%;
+    height: auto;
     width: 100%;
     background-color: rgb(58, 60, 62);;
     position: relative;
@@ -706,6 +706,7 @@ html,body {
     padding: 95px 15px 0px 15px;
     box-sizing: border-box;
     max-width: 1200px;
+    width: auto;
     display: flex;
     flex-flow: column;
     box-shadow: 0 0 10px rgba(0,0,0,.3);
@@ -906,8 +907,28 @@ html,body {
     text-align: right;
     padding: 10px;
 }
+.successfull-case-section {
+    padding: 30px 0px;
+}
+.successfull-case-box {
+    width: 100%;
+    background-color: #3b3c40;
+    background-image: url(../images/blog-thumb2.jpg);
+    height: 604px;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: right;
+    margin: 0px;
+    padding: 60px 0px 70px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.successfull-case-main {
+    height: 500px;
+}
 .lasted-news-section {
-    padding-top: 90px;
+    padding-top: 60px;
     padding-bottom: 55px;
 }
 .lasted-news-section h3{
@@ -936,4 +957,117 @@ html,body {
 .lasted-news-item:nth-child(3){
     margin-right: 25px;
     margin-left: 25px;
+}
+.tabs {
+    
+}
+.overline{
+    background-color: rgb(89, 86, 84);
+    height: 1px;
+    width: 50%;
+    margin: auto;
+}
+/* Стили для списка вкладок */
+.tab-header {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+/* Стили для вкладки */
+.tab-header__item {
+    padding: 10px;
+    margin: 5px;
+    width: 28%;
+    text-align: center;
+}
+
+/* Стили для активной вкладки */
+.tab-header__item.active {
+
+}
+/* Стиль для списка контейнеров с содержимым вкладок */
+.tab-content {
+
+}
+/* Стили для контейнера с содержимым вкладки. По умолчанию скрыт. */
+.tab-content__item {
+   display: none;
+}
+/* Стили для активного контейнера вкладки */
+.tab-content__item.active {
+    display: block;
+}
+.successfull-case__text-award {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.tab-content__item.active span{
+    color: gray;
+    margin-right: 20px;
+}
+.successfull-case__button-award {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 56px;
+    width: 190px;
+    color: white;
+    background-color: rgb(55, 202, 138);
+    font-family:'Roboto', sans-serif;
+    font-size:14px;
+    font-weight:700;
+    line-height:24px;
+    text-transform: uppercase;
+    margin: 10px;
+    transition:  0.4s ease-in-out;  
+}
+
+.successfull-case__button-award:hover{
+    color: rgb(55, 202, 138);
+    background-color: black;
+}
+.box-text-award {
+    overflow: auto;
+    height: 300px;
+}
+.tab-content__item.active p{
+    margin: 0px;
+    color: white;
+    font-family:'Roboto', sans-serif;
+    font-size:14px;
+    font-stretch:100%;
+    font-style:normal;
+    font-variant-caps:normal;
+    font-variant-east-asian:normal;
+    font-variant-ligatures:normal;
+    font-variant-numeric:normal;
+    font-weight:400;
+    height:99px;
+    letter-spacing:0.35px;
+    line-height:24px;
+}
+.successfull-case-main h5{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    color: white;
+    line-height: 55.3815px;
+    font-size: 45px;
+    margin: 0px 0px 20px 0px;
+    padding: 0px;
+}
+.successfull-case-main h5 span {
+    font-weight: 200;
+}
+.successfull-case-title {
+    width: 50%;
+    padding: 0px 15px;
+    box-sizing: border-box;
 }
