@@ -1071,3 +1071,286 @@ html,body {
     padding: 0px 15px;
     box-sizing: border-box;
 }
+.container_about_title h1{
+    font-family:  'Roboto', sans-serif;
+    font-size:59px;
+    font-stretch:100%;
+    font-style:normal;
+    font-weight:700;
+    height:auto;
+    line-height:70.8px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.box-about-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 527px;
+}
+.box-imgages__man {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    width: 50%;
+}
+.box_text__whychooseus {
+    width: 50%;
+}
+.container-about-wrapper {
+    height: 220px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 100px;
+    background-image: url(../images/slider3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    /*filter: grayscale(100%);*/
+}
+.box_text__whychooseus {
+    
+}
+.box_text__whychooseus h5{
+    font-family:'Roboto', sans-serif;
+    font-size:45px;
+    font-weight:100;
+    height:auto;
+    line-height:55.3815px;
+    margin: 0px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.box_text__whychooseus p{
+    font-family:'Roboto', sans-serif;
+    font-size:14px;
+    letter-spacing:0.35px;
+    line-height:24px;
+    padding-bottom: 24px;
+}
+.box_text__whychooseus h5 span{
+    font-weight: bold;
+}
+.button_whychooseus {
+    
+}
+/*padding: 90px 0px 100px 0px;*/
+.button_whychooseus{
+    padding: 15px 40px;
+    display: block;
+    text-decoration: none;
+    background: rgb(55, 202, 138);
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    transition: 0.5s;
+    width: 189px;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-size:14px;
+    font-weight:700;
+    height:auto;
+    line-height:24px;
+}
+.button_whychooseus:hover{
+    padding: 15px 40px;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(55, 202, 138);
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+}
+.section_our_advantages {
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+}
+.box-backgroundcolor-advantages {
+    background-color: #3a3c3e;
+    width: 50%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    height: auto;
+    overflow: hidden;
+    padding: 90px 0px 100px 0px;
+}
+.box-background-advantages {
+    height: auto;
+    background-image: url(../images/slider2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+.box-text-advantages {
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    z-index: 10;
+}
+.box-contant-text-advantages {
+    width: 75%;
+    box-sizing: border-box;
+}
+.box-contant-text-advantages h3{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    display:block;
+    font-family:'Roboto', sans-serif;
+    font-size:45px;
+    font-weight:100;
+    height:55px;
+    line-height:55.3815px;
+    margin: 0px 0px 20px 0px;
+}
+.box-contant-text-advantages h3 span{
+    font-weight: bold;
+}
+.box-contant-text-advantages ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.box-contant-text-advantages ul li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: rgb(55, 202, 138);
+}
+
+.text-advantages {
+    max-width: 390px;
+    margin-left: 30px;
+}
+.text-advantages a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-family:'Roboto', sans-serif;
+    font-size:24px;
+    font-weight:700;
+    height:auto;
+    line-height:29.5368px;
+    margin-bottom: 20px;
+    transition-duration:0.5s;
+}
+.text-advantages a:hover {
+    color: rgb(55, 202, 138);
+}
+.text-advantages p {
+    font-family:'Roboto', sans-serif;
+    font-size:14px;
+    height:96px;
+    letter-spacing:0.35px;
+    line-height:24px;
+    color:rgba(255, 255, 255, 0.5);
+    padding-bottom: 24px;
+}
+.meter { 
+	height: 12px;  /* Can be anything */
+	position: relative;
+	background: #555;
+     border-radius: 3px;
+}
+.meter > span {
+    border-radius: 3px;
+  display: block;
+  height: 100%;
+  background-color: rgb(171, 204, 55);;
+  position: relative;
+  overflow: hidden;
+}
+.orange > span {
+  background-color: rgb(245, 191, 47);
+}
+
+.red > span {
+  background-color: rgb(245, 75, 15);
+}
+
+.blue > span {
+  background-color: rgb(121, 204, 242);
+}
+.box-text-processbar-flex {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flexitem-text {
+    width: 50%;
+    margin: 15px;
+}
+.flexitem-text p {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto',sans-serif;
+    font-size:14px;
+    height:96px;
+    letter-spacing:0.35px;
+    line-height:24px;
+}
+.flexitem-processbar {
+    width: 50%;
+    margin-left: 15px;
+}
+.box_who_we_are h3{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 100;
+    font-size:45px;
+    font-family: 'Roboto',sans-serif;
+    font-size:45px;
+    font-weight:100;
+    height:55px;
+    line-height:55.3815px;
+    margin-bottom: 20px;
+}
+.box_who_we_are h3 span{
+    font-weight: bold;
+}
+.progress-header {
+    display: flex;
+    justify-content: space-between;
+}
+.progress-header {
+    font-family:'Roboto', sans-serif;
+    font-size:14px;
+    height:24px;
+    line-height:24px;
+}
+.processbar-item-skills {
+    margin-bottom: 25px;
+}
+.section_who_we_are {
+    padding: 90px 0px 55px 0px;
+}
+.section_consulting {
+   background-color: rgb(55, 202, 138); 
+}
+.box-consulting {
+    padding-top: 90px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-consulting {
+    font-family:'Roboto', sans-serif;
+    font-size:65px;
+    font-weight:700;
+    text-transform: uppercase;
+    line-height:79.9955px; 
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+/**/
